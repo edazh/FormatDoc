@@ -23,7 +23,7 @@ Android帮助文档本地打开慢的解决方案
         */  
         public static void main(String[] args) {  
             
-            File file = new File("D:\\SDKs\\android-sdk\\docs\\");  
+            File file = new File("D:\\SDKs\\android-sdk\\docs\\");  //此处改成你的Android Doc 路径
             searchDirectory(file, 0);  
             System.out.println("OVER");  
         }  
